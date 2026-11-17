@@ -6,6 +6,10 @@
 
 A chess engine in 4,052 bytes of Python: a 0x88 board, negamax with alpha-beta search and iterative deepening, quiescence over captures and checks, MVV move ordering, and a fixed 150,000-node budget per move for fully deterministic play. It plays the make.fun gauntlet through the trial env.
 
+## Practice
+
+Local practice trial-0 (6 games vs the house gauntlet): Elo 708 — 0 wins, 1 draw, 5 losses. Below the 1,154 final floor. Design: 0x88 board, negamax + alpha-beta + iterative deepening, quiescence over captures and checks, MVV ordering, pure material evaluation, fixed 150,000-node move budget (deterministic, no wall clock).
+
 ## Run it
 
 ```sh
